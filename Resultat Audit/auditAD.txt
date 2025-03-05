@@ -1,0 +1,19 @@
+﻿Date de l'audit : 03/05/2025 11:20:07
+
+Informations des comptes utilisateurs :
+Nom : Administrateur, SamAccountName : Administrateur, Activé : True
+Nom : Invité, SamAccountName : Invité, Activé : False
+Nom : sshd, SamAccountName : sshd, Activé : True
+Nom : adminssh, SamAccountName : adminssh, Activé : True
+Nom : krbtgt, SamAccountName : krbtgt, Activé : False
+Nom : david balny, SamAccountName : david.balny, Activé : True
+Nom : quentin demouliere, SamAccountName : quentin.demouliere, Activé : True
+Nom : christèle ferreira, SamAccountName : christèle.ferreira, Activé : True
+Nom : béatrice caramigeas, SamAccountName : béatrice.caramigeas, Activé : True
+Nom : patricia delouche, SamAccountName : pdelouche, Activé : True
+Nom : Guillaume Barranger, SamAccountName : guillaume.barranger, Activé : True
+Nom : Florian Desale, SamAccountName : florian.desale, Activé : True
+Nom : Arno Flacci, SamAccountName : arno.flacci, Activé : True
+Nom : Allan Fourreau, SamAccountName : allan.fourreau, Activé : True
+Nom : Laure Girard, SamAccountName : laure.girard, Activé : True
+Nom : Benjamin Louis, SamAccountName : benjamin.louis, Activé : True
