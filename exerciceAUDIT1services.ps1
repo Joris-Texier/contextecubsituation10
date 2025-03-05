@@ -1,6 +1,6 @@
 # Chemin du fichier de sortie
 $outputDirectory = "C:\Users\Administrateur\Desktop\contextecubsituation10\Resultat Audit"
-$outputFile = Join-Path -Path $outputDirectory -ChildPath "auditService.txt"
+$outputFile = Join-Path -Path $outputDirectory -ChildPath "auditServices.txt"
 
 # Obtenir la date actuelle
 $currentDate = Get-Date
