@@ -1,5 +1,6 @@
 # Chemin du fichier de sortie
-$outputFile = "auditDHCP.txt"
+$outputDirectory = "C:\Users\Administrateur\Desktop\contextecubsituation10\Resultat Audit"
+$outputFile = Join-Path -Path $outputDirectory -ChildPath "auditDHCP.txt"
 
 # Obtenir la date actuelle
 $currentDate = Get-Date

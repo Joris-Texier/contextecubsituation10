@@ -1,0 +1,5 @@
+﻿Date de l'audit : 03/05/2025 10:52:33
+
+État des plages DHCP :
+Clients : Active
+Administration : Active
