@@ -1,4 +1,4 @@
-﻿Date de lancement du script : 03/05/2025 10:52:42
+﻿Date de l'audit : 03/05/2025 11:53:20
 
 État des services :
 DHCP : Running

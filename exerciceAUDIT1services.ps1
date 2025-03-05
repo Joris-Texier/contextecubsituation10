@@ -1,7 +1,6 @@
 # Chemin du fichier de sortie
 $outputDirectory = "C:\Users\Administrateur\Desktop\contextecubsituation10\Resultat Audit"
-$outputFile = Join-Path -Path $outputDirectory -ChildPath "auditServices.txt"
-
+$outputFile = Join-Path -Path $outputDirectory -ChildPath "auditService.txt"
 
 # Obtenir la date actuelle
 $currentDate = Get-Date
@@ -21,11 +20,16 @@ foreach ($service in $services) {
 
 # Créer le contenu du fichier
 $content = @"
-Date de lancement du script : $currentDate
+Date de l'audit : $currentDate
 
 État des services :
 $($serviceStatus -join "`n")
 "@
+
+# Créer le répertoire s'il n'existe pas
+if (-Not (Test-Path -Path $outputDirectory)) {
+    New-Item -ItemType Directory -Path $outputDirectory
+}
 
 # Écrire le contenu dans le fichier
 $content | Out-File -FilePath $outputFile -Encoding utf8

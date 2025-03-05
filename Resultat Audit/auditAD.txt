@@ -1,4 +1,4 @@
-﻿Date de l'audit : 03/05/2025 11:20:07
+﻿Date de l'audit : 03/05/2025 11:45:46
 
 Informations des comptes utilisateurs :
 Nom : Administrateur, SamAccountName : Administrateur, Activé : True
