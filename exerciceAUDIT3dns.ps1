@@ -6,12 +6,12 @@ $outputFile = Join-Path -Path $outputDirectory -ChildPath "auditDNS.txt"
 $currentDate = Get-Date
 
 # Récupérer les enregistrements DNS de type A
-$dnsRecords = Get-DnsClientCache -ErrorAction SilentlyContinue | Where-Object { $_.Type -eq "A" }
+$dnsRecords = Get-DnsServerResourceRecord -ZoneName "local.anvers.cub.sioplc.fr" -RRType A -ErrorAction SilentlyContinue
 $dnsEntries = @()
 
 foreach ($record in $dnsRecords) {
-    $name = $record.Name
-    $ipAddress = $record.Data
+    $name = $record.HostName
+    $ipAddress = $record.RecordData.IPv4Address
 
     # Ajouter l'enregistrement DNS au tableau
     $dnsEntries += "$name : $ipAddress"
@@ -34,3 +34,4 @@ if (-Not (Test-Path -Path $outputDirectory)) {
 $content | Out-File -FilePath $outputFile -Encoding utf8
 
 Write-Host "Audit des enregistrements DNS enregistré dans $outputFile"
+

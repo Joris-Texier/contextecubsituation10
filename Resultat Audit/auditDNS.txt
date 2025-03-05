@@ -1,4 +1,15 @@
-﻿Date de l'audit : 03/05/2025 10:58:54
+﻿Date de l'audit : 03/05/2025 11:14:56
 
 Enregistrements DNS de type A :
-
+@ : 192.168.1.2
+@ : 192.168.1.1
+DomainDnsZones : 192.168.1.1
+DomainDnsZones : 192.168.1.2
+ForestDnsZones : 192.168.1.1
+ForestDnsZones : 192.168.1.2
+Salle406-01 : 192.168.1.133
+Salle406-04 : 192.168.1.131
+serveurprimaire1 : 192.168.1.1
+ServeurSecond : 192.168.1.2
+ServeurSecondaire : 192.168.1.2
+ServeurSecondaire1 : 192.168.1.2
